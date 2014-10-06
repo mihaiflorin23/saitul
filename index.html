@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elite</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+   <link href="css/main1.css" rel="stylesheet">
+   
+  </head>
+  <body class="homepage">
+  
+  <header id="header">
+     
+     <nav class="navbar navbar-inverse" role="banner" >
+             <div class="container">
+             <div class="navbar-header">
+             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+             <span class="sr-only">Toggle navigation</span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             </button>
+             <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo" ></a>
+                </div>
+        
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html" >Acasa</a></li>
+                        <li><a href="despreNoi.html">Despre noi</a></li>
+                        <li><a href="servicii.html">Servicii</a></li>
+                        <li><a href="portfoliu.html">Portofoliu</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pagini<i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="blog">Blog</a></li>
+                                <li><a href="Preturi.html">Preturi</a></li>
+                               
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li> 
+                        <li><a href="contact.html">Contact</a></li>
+                        <li>  <div class="search">
+                                <form role="form">
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                           </div>
+                        </li>                        
+                    </ul>
+                </div>
+            </div>
+         
+      </nav>
+    </header> 
+
+ <!-- home page   
+
+      Main-Slider    -->
+
+
+<section id="main-slider" class="no-margin">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="item active" style="background-image: url(images/slider/bg1.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Suntem cei mai buni</h1>
+                                    <h2 class="animation animated-item-2">Prioritatea  noastra este de a servi interesele clientilor nostri  într-o lume  din ce în ce mai complexa</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Citeste mai mult</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/img1.png" class="img-responsive">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider/bg2.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Cu noi aveti succesul garantat</h1>
+                                    <h2 class="animation animated-item-2">Aveti incredere in noi</h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/img2.png" class="img-responsive">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url(images/slider/bg3.jpg)">
+                    <div class="container">
+                        <div class="row slide-margin">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h1 class="animation animated-item-1">Sunteti pe drumul cel bun.</h1>
+                                    <h2 class="animation animated-item-2"></h2>
+                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 hidden-xs animation animated-item-4">
+                                <div class="slider-img">
+                                    <img src="images/slider/img3.png" class="img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"><</i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right">></i>
+        </a>
+    </section><!--/#main-slider-->
+
+<footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2014 <a target="_blank" href="" title="">ShapeBootstrap</a>. All Rights Reserved.
+                </div>
+                <div class="col-sm-6">
+                    <ul class="pull-right">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Faq</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+
+
+
+
+
+
+
+
+ <script src="js/jquery.isotope.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+ <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
